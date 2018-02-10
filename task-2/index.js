@@ -1,5 +1,5 @@
-'use ctrict'
+'use strict'
 
-let hello = 'I am JavaScript!'
+let hello = 'I am JavaScript!';
 
-alert(hello)
+alert(hello);
