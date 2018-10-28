@@ -47,7 +47,7 @@ while (remainingLetters > 0 && attempts > 0) {
         remainingLetters--;
         let count = 0;
         for (let k = 0; k < answerArray.length; k++) {
-          if (guess !== answerArray[k]) {} else if (guess === answerArray[k]) {
+          if (guess === answerArray[k]) {
             count++;
           }
         }
